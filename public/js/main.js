@@ -98,8 +98,9 @@ var app={
     inicializar: function() {
 		"use strict";
 		var self=this;
+	  self.listenSocket();//socket activo
         self.cargarMapa(); //llamando metodo que carga el mapa
-        self.listenSocket();//socket activo
+        */self.listenSocket();//socket activo/*
 	
   }
 
