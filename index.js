@@ -31,4 +31,4 @@ socket.on('disconnet',function(){
 	socketCount++;//decremento del contador
 	console.log('Usuario Desconectado');//mensaje en consola
 	io.sockets.emit('usuario desconectado');//mensaje a todos los sockets
-})
+});
