@@ -91,6 +91,8 @@ var app={
           $('#divContador').html(contador);//cargando datos en el div
 
         });
+ocket.on('usuario desconectado',function(conta){
+          $('#divContador').html(conta);//cargando datos en el div
 
       },
 
